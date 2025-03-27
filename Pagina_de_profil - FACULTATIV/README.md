@@ -1,8 +1,8 @@
 # 📄 User Profile Page Project
-This project demonstrates the development of a *User Profile Page* using two powerful Java technologies: **JavaFX** and **Java Swing**. The focus is on *Graphical User Interface* design, user data management, and event handling, aiming to create an interactive profile display with dynamic features.
+This project presents the development of a *User Profile Page* using two Java technologies: **JavaFX** and **Java Swing**. The focus is on *Graphical User Interface* design, user data management, and event handling, aiming to create an interactive profile display with dynamic features.
 
 ## 🏗️ Project Structure
-The repository is organized into two main implementations, showcasing the flexibility of Java’s GUI capabilities:
+This repository is organized into two main implementations, showcasing the flexibility of Java flexibility in creating GUI interfaces:
 
 -  📂 **Facultativ_JavaFX** – A modern, responsive UI built with JavaFX.
 
