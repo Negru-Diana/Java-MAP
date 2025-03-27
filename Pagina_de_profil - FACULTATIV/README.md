@@ -64,6 +64,8 @@ Additionally, the project includes:
 
 -  **Dynamic Data Loading**: Loads and displays user profiles and images from external files.
 
+-  **Password Encryption**: User passwords are securely encrypted to maintain privacy and security.
+
 -  **Profile Picture Integration**: Enhances user personalization by displaying a profile picture along with other profile details.
 
 -  **Profile Picture as Circle (Java Swing)**: Adds a circular profile picture for a modern and stylish look using *Graphics2D* for image manipulation.
@@ -80,6 +82,8 @@ Additionally, the project includes:
 -  🖥️ **Technologies Used**: JavaFX, Java Swing
 
 -  📄 **Data Storage**: Text files (.txt) for user data and image files (.JPG) for profile pictures
+
+-  🔒 **Password Encryption**: Uses encryption techniques to securely store passwords.
 
 -  🔄 **Event Handling**: *ActionListeners* for managing user interactions and ensuring a seamless experience.
 
