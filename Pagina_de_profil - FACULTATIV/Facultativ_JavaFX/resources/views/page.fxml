@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="340.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.facultativ_javafx.controllers.PageController">
+   <children>
+      <ImageView fx:id="profilePictureImageView" fitHeight="150.0" fitWidth="167.0" layoutX="34.0" layoutY="29.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/nopic.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="usernameLabel" layoutX="215.0" layoutY="29.0" text="username">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="postsNumberLabel" layoutX="245.0" layoutY="87.0" text="0000">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="followersNumberLabel" layoutX="365.0" layoutY="87.0" text="00000">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="followingNumberLabel" layoutX="500.0" layoutY="87.0" text="00000">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="243.0" layoutY="111.0" text="Posts">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="354.0" layoutY="111.0" text="Followers">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="488.0" layoutY="111.0" text="Following">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button id="editProfileButton" layoutX="34.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleEditProfileButton" prefHeight="25.0" prefWidth="167.0" text="Edit profile" />
+      <Label fx:id="nameLabel" layoutX="245.0" layoutY="161.0" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="ocupationLabel" layoutX="245.0" layoutY="191.0" text="Label" textFill="#5e5e5e">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="profileDescriptionLabel" layoutX="34.0" layoutY="241.0" prefHeight="84.0" prefWidth="543.0" text="Label" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+/*
+Stilizare AnchorPane
+ */
+
+AnchorPane{
+    -fx-background-color: #cea7e1;
+}
+
+
+/*
+Stilizare butoane
+ */
+
+.button{
+    -fx-background-color: #ce6df4;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}

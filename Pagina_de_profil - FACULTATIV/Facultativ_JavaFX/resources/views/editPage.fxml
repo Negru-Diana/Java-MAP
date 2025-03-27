@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="333.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.facultativ_javafx.controllers.EditPageController">
+   <children>
+      <ImageView fx:id="profilPictureImageView" fitHeight="150.0" fitWidth="164.0" layoutX="37.0" layoutY="29.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/nopic.png" />
+         </image></ImageView>
+      <Button id="choosePictureButton" layoutX="37.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleChooseProfilePictureButton" prefHeight="25.0" prefWidth="164.0" text="Choose profile picture" />
+      <Label layoutX="223.0" layoutY="41.0" text="Username:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="73.0" text="Name:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="106.0" text="Ocupation:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="179.0" text="Description:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="141.0" text="Password:">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <TextField fx:id="usernameTextField" layoutX="309.0" layoutY="38.0" prefHeight="25.0" prefWidth="258.0" />
+      <TextField fx:id="nameTextField" layoutX="309.0" layoutY="70.0" prefHeight="25.0" prefWidth="258.0" />
+      <TextField fx:id="OcupationTextField" layoutX="309.0" layoutY="103.0" prefHeight="25.0" prefWidth="258.0" />
+      <PasswordField fx:id="passwordField" layoutX="309.0" layoutY="137.0" prefHeight="25.0" prefWidth="258.0" />
+      <TextArea fx:id="descriptionTextArea" layoutX="309.0" layoutY="178.0" prefHeight="70.0" prefWidth="258.0" />
+      <Button id="saveButton" layoutX="488.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleSaveButton" prefHeight="31.0" prefWidth="79.0" text="Save">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="profilePictureLabel" layoutX="37.0" layoutY="231.0" text="profile picture" visible="false" />
+   </children>
+</AnchorPane>
