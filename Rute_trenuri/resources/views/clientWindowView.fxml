@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="737.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examen_db.controllers.ClientWindowViewController">
+   <children>
+      <ComboBox fx:id="departureComboBox" layoutX="136.0" layoutY="79.0" prefHeight="25.0" prefWidth="185.0" />
+      <ComboBox fx:id="destinationComboBox" layoutX="520.0" layoutY="79.0" prefHeight="25.0" prefWidth="185.0" />
+      <Label layoutX="32.0" layoutY="81.0" text="Departure city:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="406.0" layoutY="81.0" text="Destination city:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="directRoutesCheckBox" layoutX="32.0" layoutY="122.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="150.0" text="Direct routes only">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </CheckBox>
+      <Button id="searchButton" layoutX="520.0" layoutY="120.0" mnemonicParsing="false" onAction="#handleSearchButton" prefHeight="25.0" prefWidth="185.0" text="Search" />
+      <Label fx:id="routesLabel" layoutX="32.0" layoutY="183.0" prefHeight="181.0" prefWidth="672.0" text="Label" />
+      <Label fx:id="labelUsers" layoutX="31.0" layoutY="14.0" text="Label" />
+   </children>
+</AnchorPane>
