@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="370.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.retea_de_socializare.controllers.ReteaDeSocializareController">
+   <children>
+      <TabPane fx:id="socializareTabPane" prefHeight="379.0" prefWidth="514.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="myAccountTab" text="My account">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="337.0" prefWidth="600.0">
+                     <children>
+                        <ImageView fitHeight="63.0" fitWidth="80.0" layoutX="14.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/logo.png" />
+                           </image>
+                        </ImageView>
+                        <VBox layoutX="97.0" layoutY="101.0" prefHeight="140.0" prefWidth="362.0">
+                           <children>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Label prefHeight="20.0" prefWidth="80.0" text="First name:">
+                                       <font>
+                                          <Font name="System Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="prenumeField" editable="false" prefHeight="25.0" prefWidth="280.0" />
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Label prefHeight="20.0" prefWidth="80.0" text="Last name:">
+                                       <font>
+                                          <Font name="System Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="numeField" editable="false" prefHeight="25.0" prefWidth="280.0" />
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Label prefHeight="20.0" prefWidth="80.0" text="Username:">
+                                       <font>
+                                          <Font name="System Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="usernameField" editable="false" prefHeight="25.0" prefWidth="280.0" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <Button id="logoutButton" layoutX="290.0" layoutY="273.0" mnemonicParsing="false" onAction="#handleLogOutButton" prefHeight="30.0" prefWidth="169.0" text="Logout">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <Button id="deleteAccountButton" layoutX="97.0" layoutY="273.0" mnemonicParsing="false" onAction="#handleDeleteAccountButton" prefHeight="30.0" prefWidth="169.0" text="Delete account">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="friendsTab" text="Friends">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="friendsTableView" layoutX="14.0" layoutY="49.0" prefHeight="196.0" prefWidth="242.0">
+                          <columns>
+                            <TableColumn fx:id="usernameTableColumn" prefWidth="75.0" text="Username" />
+                            <TableColumn fx:id="friendsFromTableColumn" prefWidth="75.0" text="Friends from" />
+                          </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                        <Label fx:id="numberOfFriendsLabel" layoutX="14.0" layoutY="20.0" text="You have - friends">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="283.0" layoutY="49.0" prefHeight="276.0" prefWidth="217.0">
+                           <children>
+                              <HBox prefHeight="61.0" prefWidth="217.0">
+                                 <children>
+                                    <Label text="Friend details:">
+                                       <font>
+                                          <Font name="System Bold Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <VBox prefHeight="78.0" prefWidth="217.0">
+                                 <children>
+                                    <Label text="Name:">
+                                       <font>
+                                          <Font name="System Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="numeFriendField" editable="false" />
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="10.0" layoutY="94.0" prefHeight="75.0" prefWidth="217.0">
+                                 <children>
+                                    <Label text="Username:">
+                                       <font>
+                                          <Font name="System Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="usernameFriendField" editable="false" />
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="10.0" layoutY="154.0" prefHeight="61.0" prefWidth="217.0">
+                                 <children>
+                                    <Label text="Friends from:">
+                                       <font>
+                                          <Font name="System Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="friendsFromField" editable="false" />
+                                 </children>
+                              </VBox>
+                              <HBox alignment="BOTTOM_RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="64.0" prefWidth="217.0">
+                                 <children>
+                                    <Button id="deleteFriendButton" mnemonicParsing="false" onAction="#handleDeleteFriendButton" prefHeight="25.0" prefWidth="106.0" text="Delete friend">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <Button id="createGroupButton" layoutX="15.0" layoutY="295.0" mnemonicParsing="false" onAction="#handleCreateGroupButton" prefHeight="30.0" prefWidth="240.0" text="Create a group">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="previousPageFriendButton" layoutX="15.0" layoutY="256.0" mnemonicParsing="false" onAction="#handlePreviousPageFriendButton" text="Previous" />
+                        <Button fx:id="nextPageFriendButton" layoutX="196.0" layoutY="256.0" mnemonicParsing="false" onAction="#handleNextPageFriendButton" prefHeight="11.0" prefWidth="60.0" text="Next" />
+                        <Label fx:id="numberPageFriendsLabel" layoutX="105.0" layoutY="260.0" text="Page 0 of 0" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="addNewFriendsTab" text="Add new friends">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="possibleFriendsTableView" layoutX="14.0" layoutY="45.0" prefHeight="231.0" prefWidth="266.0">
+                          <columns>
+                            <TableColumn fx:id="namePossibelFriendsTableColumn" prefWidth="75.0" text="Name" />
+                            <TableColumn fx:id="usernamePossibleFriendsTableColumn" prefWidth="75.0" text="Username" />
+                          </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                        <Label layoutX="14.0" layoutY="14.0" text="Your possible friends:">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="299.0" layoutY="45.0" text="Search:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="searchField" layoutX="299.0" layoutY="65.0" prefHeight="25.0" prefWidth="119.0" />
+                        <Button id="searchButton" layoutX="424.0" layoutY="65.0" mnemonicParsing="false" onAction="#handleSearchButton" prefHeight="25.0" prefWidth="70.0" text="Search" />
+                        <VBox layoutX="301.0" layoutY="114.0" prefHeight="195.0" prefWidth="196.0">
+                           <children>
+                              <Label fx:id="mutualFriendsLabel" text="Mutual friends:">
+                                 <font>
+                                    <Font name="System Italic" size="14.0" />
+                                 </font>
+                              </Label>
+                              <ListView fx:id="mutualFriendsListView" prefHeight="149.0" prefWidth="196.0" />
+                              <HBox alignment="BOTTOM_RIGHT" prefHeight="37.0" prefWidth="196.0">
+                                 <children>
+                                    <Button id="sendRequestButton" mnemonicParsing="false" onAction="#handleSendRequestButton" text="Send request">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <Button fx:id="previousPossibleFriendsPageButton" layoutX="14.0" layoutY="282.0" mnemonicParsing="false" onAction="#handlePreviousPagePossibleFriendButton" text="Previous">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="nextPossibleFriendsPageButton" layoutX="209.0" layoutY="282.0" mnemonicParsing="false" onAction="#handleNextPagePossibleFriendButton" prefHeight="30.0" prefWidth="71.0" text="Next">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <Label fx:id="numberPagePossibleFriendsLabel" layoutX="117.0" layoutY="289.0" text="Page 0 of 0" />
+                     </children></AnchorPane>
+                </content>
+            </Tab>
+            <Tab fx:id="friendRequestsTab" text="Friend requests">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="friendRequestsLabel" layoutX="26.0" layoutY="25.0" text="Friend requests:">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="friendRequeststTableView" layoutX="26.0" layoutY="53.0" prefHeight="237.0" prefWidth="461.0">
+                          <columns>
+                            <TableColumn fx:id="nameRequestsTableColumn" prefWidth="75.0" text="Name" />
+                            <TableColumn fx:id="usernameRequestsTableColumn" prefWidth="75.0" text="Username" />
+                              <TableColumn fx:id="dateRequestsTableColumn" prefWidth="75.0" text="Date" />
+                              <TableColumn fx:id="statusRequestsTableColumn" prefWidth="75.0" text="Status" />
+                          </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                        <Button fx:id="acceptRequestButton" layoutX="26.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleAcceptRequestButton" prefHeight="30.0" prefWidth="166.0" text="Accept">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <RadioButton fx:id="sentRequestsRadioButton" layoutX="394.0" layoutY="27.0" mnemonicParsing="false" onAction="#handleRadioButtons" text="Sent requests" />
+                        <RadioButton fx:id="receivedRequestsRadioButton" layoutX="265.0" layoutY="27.0" mnemonicParsing="false" onAction="#handleRadioButtons" text="Received requests" />
+                        <Button fx:id="declineRequestButton" layoutX="323.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleDeclineRequestButton" prefHeight="30.0" prefWidth="166.0" text="Decline">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="deleteRequestButton" layoutX="323.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleDeleteRequestButton" prefHeight="30.0" prefWidth="166.0" text="Delete">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                     </children></AnchorPane>
+                </content>
+            </Tab>
+            <Tab fx:id="chatTab" text="Chat">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ComboBox fx:id="friendsOrGroupsComboBox" layoutX="324.0" layoutY="54.0" prefHeight="25.0" prefWidth="176.0" />
+                        <Label layoutX="324.0" layoutY="29.0" text="Chat with:">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="chatListView" layoutX="26.0" layoutY="54.0" prefHeight="223.0" prefWidth="277.0" />
+                        <Label fx:id="statusOrNameChatLabel" layoutX="26.0" layoutY="29.0" text="Status:">
+                           <font>
+                              <Font name="System Bold Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="messageTextField" layoutX="26.0" layoutY="285.0" prefHeight="25.0" prefWidth="225.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <Button id="sendMessageButton" layoutX="254.0" layoutY="285.0" mnemonicParsing="false" onAction="#handleSendMessageButton" text="Send">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                     </children></AnchorPane>
+                </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
