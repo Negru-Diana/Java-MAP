@@ -44,46 +44,46 @@ Additionally, the project includes:
 
     -  Circular Profile Picture Effect: Implements a visually appealing circular mask effect for profile pictures, giving them a polished and modern look.
 
-📂 User Data Management
-Data Storage & Retrieval:
+## 📂 User Data Management
+### Data Storage & Retrieval:
 
-The project loads user profile data from external text files (Utilizatori_1.txt, Utilizatori_2.txt) to dynamically populate the user interface.
+-  The project loads user profile data from external text files (Utilizatori_1.txt, Utilizatori_2.txt) to dynamically populate the user interface.
 
-Profile Pictures: The application reads image files (e.g., .JPG) to display personalized profile pictures alongside the user’s information.
+-  Profile Pictures: The application reads image files (e.g., .JPG) to display personalized profile pictures alongside the user’s information.
 
-How It Works:
+### How It Works:
 
-The application parses the text files to extract essential user details, such as name, email, and bio.
+-  The application parses the text files to extract essential user details, such as name, email, and bio.
 
-These details are displayed dynamically in the UI, allowing for real-time updates and user interactions.
+-  These details are displayed dynamically in the UI, allowing for real-time updates and user interactions.
 
-Event Handling: Users can modify their information (e.g., updating their bio or email) through interactive buttons, which trigger specific ActionListeners for updates.
+-  Event Handling: Users can modify their information (e.g., updating their bio or email) through interactive buttons, which trigger specific ActionListeners for updates.
 
-🌟 Key Features
-✅ Dual GUI Implementation: Demonstrates both JavaFX and Java Swing, showcasing the versatility of Java in building user interfaces.
+## 🌟 Key Features
+-  Dual GUI Implementation: Demonstrates both JavaFX and Java Swing, showcasing the versatility of Java in building user interfaces.
 
-✅ Dynamic Data Loading: Loads and displays user profiles and images from external files.
+-  Dynamic Data Loading: Loads and displays user profiles and images from external files.
 
-✅ Profile Picture Integration: Enhances user personalization by displaying a profile picture along with other profile details.
+-  Profile Picture Integration: Enhances user personalization by displaying a profile picture along with other profile details.
 
-✅ Circular Profile Picture Effect (Java Swing): Applies a circular mask to profile pictures, providing a modern and stylish look.
+-  Profile Picture as Circle (Java Swing): Adds a circular profile picture for a modern and stylish look using Graphics2D for image manipulation.
 
-✅ User-Friendly Interface: Offers a clean, intuitive interface, making it easy for users to navigate and interact with their profile.
+-  User-Friendly Interface: Offers a clean, intuitive interface, making it easy for users to navigate and interact with their profile.
 
-✅ Event-Driven Interactions: Implements ActionListeners for smooth, responsive buttons and actions.
+-  Event-Driven Interactions: Implements ActionListeners for smooth, responsive buttons and actions.
 
-✅ Modular & Scalable: Follows modular design principles, making it easy to maintain and scale for future improvements.
+-  Modular & Scalable: Follows modular design principles, making it easy to maintain and scale for future improvements.
 
-🛠️ Technical Highlights
-💻 Language: Java
+## 🛠️ Technical Highlights
+-  💻 Language: Java
 
-🖥️ Technologies Used: JavaFX, Java Swing
+-  🖥️ Technologies Used: JavaFX, Java Swing
 
-📄 Data Storage: Text files (.txt) for user data and image files (.JPG) for profile pictures
+-  📄 Data Storage: Text files (.txt) for user data and image files (.JPG) for profile pictures
 
-🔄 Event Handling: ActionListeners for managing user interactions and ensuring a seamless experience.
+-  🔄 Event Handling: ActionListeners for managing user interactions and ensuring a seamless experience.
 
-🎨 UI Framework: Modern and classic frameworks showcasing Java's capability in creating dynamic and responsive user interfaces.
+-  🎨 UI Framework: Modern and classic frameworks showcasing Java's capability in creating dynamic and responsive user interfaces.
 
-🖼️ Profile Picture Manipulation: Graphics2D in Java Swing to apply a circular mask effect on profile pictures, creating a visually pleasing and contemporary design.
+-  🖼️ Profile Picture Manipulation: Graphics2D in Java Swing to create circular profile pictures for a polished look.
 
