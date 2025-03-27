@@ -40,7 +40,7 @@ Additionally, the project includes:
 
     -  **Event Listeners**: Implements action listeners for buttons and interactive elements to enable dynamic user actions.
 
-    -  **Simple & Efficient**: Focuses on providing a straightforward, functional user interface without the complexity of modern frameworks.
+    -  **Simple & Efficient**: Focuses on providing a straightforward, functional user interface.
 
     -  **Circular Profile Picture Effect**: Implements a visually appealing circular mask effect for profile pictures, giving them a polished and modern look.
 
@@ -60,19 +60,19 @@ Additionally, the project includes:
 -  **Event Handling**: Users can modify their information (e.g., updating their bio or email) through interactive buttons, which trigger specific ActionListeners for updates.
 
 ## 🌟 Key Features
--  **Dual GUI Implementation**: Demonstrates both JavaFX and Java Swing, showcasing the versatility of Java in building user interfaces.
+-  **Dual GUI Implementation**: Demonstrates both *JavaFX* and *Java Swing*, showcasing the versatility of Java in building user interfaces.
 
 -  **Dynamic Data Loading**: Loads and displays user profiles and images from external files.
 
 -  **Profile Picture Integration**: Enhances user personalization by displaying a profile picture along with other profile details.
 
--  **Profile Picture as Circle (Java Swing)**: Adds a circular profile picture for a modern and stylish look using Graphics2D for image manipulation.
+-  **Profile Picture as Circle (Java Swing)**: Adds a circular profile picture for a modern and stylish look using *Graphics2D* for image manipulation.
 
 -  **User-Friendly Interface**: Offers a clean, intuitive interface, making it easy for users to navigate and interact with their profile.
 
--  **Event-Driven Interactions**: Implements ActionListeners for smooth, responsive buttons and actions.
+-  **Event-Driven Interactions**: Implements *ActionListeners* for smooth, responsive buttons and actions.
 
--  **Modular & Scalable**: Follows modular design principles, making it easy to maintain and scale for future improvements.
+-  **Modular & Scalable**: Follows *modular design principles*, making it easy to maintain and scale for future improvements.
 
 ## 🛠️ Technical Highlights
 -  💻 **Language**: Java
@@ -81,9 +81,9 @@ Additionally, the project includes:
 
 -  📄 **Data Storage**: Text files (.txt) for user data and image files (.JPG) for profile pictures
 
--  🔄 **Event Handling**: ActionListeners for managing user interactions and ensuring a seamless experience.
+-  🔄 **Event Handling**: *ActionListeners* for managing user interactions and ensuring a seamless experience.
 
--  🎨 UI Framework: Modern and classic frameworks showcasing Java's capability in creating dynamic and responsive user interfaces.
+-  🎨 **UI Framework**: Modern and classic frameworks showcasing Java's capability in creating dynamic and responsive user interfaces.
 
--  🖼️ Profile Picture Manipulation: Graphics2D in Java Swing to create circular profile pictures for a polished look.
+-  🖼️ **Profile Picture Manipulation**: *Graphics2D* in Java Swing to create circular profile pictures for a polished look.
 
