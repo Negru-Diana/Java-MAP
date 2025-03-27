@@ -1,0 +1,5 @@
+.tab-with-notification {
+    -fx-background-color: #f46c97; /* Culoare de fundal pentru notificare */
+    -fx-text-fill: #000000; /* Culoare pentru text */
+    -fx-background-radius: 5px;
+}
