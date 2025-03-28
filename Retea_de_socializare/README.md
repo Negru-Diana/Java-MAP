@@ -14,7 +14,7 @@ The repository is organized into modules, each focusing on a different aspect of
 
 -  📂 Notifications: Provides real-time alerts for events such as new friend requests.
 
-## 🧩 Core Features of the Social Network
+## 🌟 Key Features
 ### 1️⃣ User Profiles
 - Registration & Login: Users can create accounts, login.
 
