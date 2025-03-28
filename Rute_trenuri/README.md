@@ -17,7 +17,7 @@
 ## 🛠️ Technologies & Tools Used
 -  💻 **Programming Language**: Java
 -  🖥️ **UI Framework**: JavaFX
--  🗃️ **Database**: PostgreSQL (for storing train routes and schedules)
+-  🗃️ **Database**: PostgreSQL (for storing train routes)
 -  🔌 **Development Environment**: IntelliJ IDEA
 -  🔄 **Algorithmic Approach**: Backtracking for route discovery
 
