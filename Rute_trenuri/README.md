@@ -24,5 +24,5 @@
 ## 📌 Design Patterns & Modern Java Features
 -  🧩 **Backtracking Algorithm** – Efficiently finds all possible train routes, ensuring optimal path discovery.
 -  🔄 **Observer Pattern** – Tracks user searches in real-time, providing live updates on route availability.
--  ⚡ **Streams API & Lambda Expressions** – Enhances performance by streamlining data processing.
+
 
