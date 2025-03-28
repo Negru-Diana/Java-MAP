@@ -1,5 +1,5 @@
 # 📄 Social Network Application Project
-This project is a *Social Network Application* developed in Java, designed to provide core social features such as friendship management, private messaging, private group creation, and real-time notifications. The application simulates a messaging platform where users can interact through friend requests, private groups, and notifications, enriching the social experience.
+This project is a *Social Network Application* developed in Java, designed to provide core social features such as friendship management, private messaging, private group creation, and real-time notifications. The application simulates a messaging platform where users can interact through friend requests, private groups and private messages, enriching the social experience.
 
 ## 🏗️ Project Structure
 The repository is organized into modules, each focusing on a different aspect of the social network:
@@ -60,11 +60,7 @@ The repository is organized into modules, each focusing on a different aspect of
 
 -  📄 **Database**: PostgreSQL used for storing user profiles, friend requests, messages, groups, and notifications.
 
--  🔄 **Event Handling**: ActionListeners and MouseListeners manage user interactions and update the interface dynamically.
-
--  📱 **Real-Time Updates**: Utilizes the Observer/Observable Pattern to update the UI in real-time, reflecting changes like new messages or friend requests without needing to refresh.
-
--  💬 **Private Messaging**: Messages can be replied to, ensuring users can continue conversations seamlessly.
+-  🔄 **Event Handling**: *ActionListeners* and *MouseListeners* manage user interactions and update the interface dynamically.
 
 -  📲 **Real-Time Notifications**: Users receive instant notifications for important activities, keeping the app interactive and engaging.
 
