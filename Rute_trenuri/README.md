@@ -2,10 +2,7 @@
 
 *Train Routes Finder* is a Java-based application that helps users find train routes between cities, offering a user-friendly graphical interface for exploring direct and multi-stop connections. The system efficiently processes train route searches while displaying pricing and real-time information.
 
-## 🏗️ Project Structure
--  📂 **User Interface** – A JavaFX-based GUI for searching and displaying train routes.
--  📂 **Service Layer** – Implements business logic, including route search and fare calculation.
--  📂 **Repository Layer** – Manages database interaction for retrieving train schedules and routes.
+
 
 ## 🌟 Key Features
 -  🔍 **Train Route Search** – Users can input departure and destination cities to find possible connections.
