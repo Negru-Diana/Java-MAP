@@ -1,18 +1,7 @@
 # 📄 Social Network Application Project
 This project is a *Social Network Application* developed in Java, designed to provide core social features such as friendship management, private messaging, private group creation, and real-time notifications. The application simulates a messaging platform where users can interact through friend requests, private groups and private messages, enriching the social experience.
 
-## 🏗️ Project Structure
-The repository is organized into modules, each focusing on a different aspect of the social network:
 
--  📂 **User Management**: Handles user registration and login.
-
--  📂 **Friendship Management**: Manages the sending, accepting, and rejecting of friend requests, along with viewing mutual friends.
-
--  📂 **Private Messaging & Group Chat**: Enables users to send private messages, reply to messages, and create private groups.
-
--  📂 **Database Handling**: Manages database interactions for storing user data, friend requests, messages, and group information.
-
--  📂 **Notifications**: Provides real-time alerts for events such as new friend requests.
 
 ## 🌟 Key Features
 ### 1️⃣ User Profiles
