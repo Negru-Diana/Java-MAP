@@ -55,7 +55,7 @@ Additionally, the project includes:
 
 -  The application parses the text files to extract essential user details, such as name, email, and bio.
 
--  These details are displayed dynamically in the UI, allowing for real-time updates and user interactions.
+-  These details are displayed dynamically in the UI, allowing for real-time updates.
 
 -  **Event Handling**: Users can modify their information (e.g., updating their bio or email) through interactive buttons, which trigger specific ActionListeners for updates.
 
