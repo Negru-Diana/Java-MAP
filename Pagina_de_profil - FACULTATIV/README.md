@@ -44,20 +44,7 @@ Additionally, the project includes:
 
     -  **Circular Profile Picture Effect**: Implements a visually appealing circular mask effect for profile pictures, giving them a polished and modern look.
 
-## 📂 User Data Management
-### Data Storage & Retrieval:
 
--  The project loads user profile data from external text files (*Utilizatori_1.txt*, *Utilizatori_2.txt*) to dynamically populate the user interface.
-
--  **Profile Pictures**: The application reads image files (e.g., .JPG) to display personalized profile pictures alongside the user’s information.
-
-### How It Works:
-
--  The application parses the text files to extract essential user details, such as name, email, and bio.
-
--  These details are displayed dynamically in the UI, allowing for real-time updates.
-
--  **Event Handling**: Users can modify their information (e.g., updating their bio or email) through interactive buttons, which trigger specific ActionListeners for updates.
 
 ## 🌟 Key Features
 -  **Dual GUI Implementation**: Demonstrates both *JavaFX* and *Java Swing*, showcasing the versatility of Java in building user interfaces.
